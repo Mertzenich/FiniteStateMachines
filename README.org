@@ -1,6 +1,6 @@
 #+TITLE: Finite State Machines
 
-Implementation(s) of finite state machine(s)
+Implementation(s) of finite state machine(s) to make my life easier. Very little testing as of now (if any).
 
 * Deterministic Finite Automata
 
