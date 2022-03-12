@@ -62,6 +62,12 @@ class DeterministicFiniteAutomata:
                 expression[1::], self.__transitions[currentState][expression[0]]
             )
 
+    @staticmethod
+    def parse_machine_string(machine: str):
+        """Return a machine based on the machine string given"""
+        machine
+        raise NotImplementedError
+
 
 def main():
     """Run the program"""
@@ -85,6 +91,7 @@ def main():
         {"q4"},
     )
     print(DFA.process_input("01000"))
+    print(DFA)
 
 
 if __name__ == "__main__":
