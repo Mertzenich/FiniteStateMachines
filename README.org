@@ -5,7 +5,7 @@
 Simulator for deterministic finite state automatons. Still needs testing.
 
 * Example Usage
-#+begin_src python :results output
+#+begin_src python :results output :exports both
 from src.dfa import DeterministicFiniteAutomata
 
 # Machine for accepting strings of 1's or 0's where three consecutive zeroes occur at some point
