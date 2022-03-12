@@ -1,10 +1,16 @@
-#+TITLE: README
+#+TITLE: Finite State Machines
 
-* Finite State Machine
+Implementation(s) of finite state machine(s)
 
-Simulator for deterministic finite state automatons. Still needs testing.
+* Deterministic Finite Automata
 
-* Example Usage
+#+begin_quote
+"Finite-state machine that accepts and rejects strings of symbols and only produces a unique computation (or run) of the automaton for each input string"
+#+end_quote
+
+https://en.wikipedia.org/wiki/Deterministic_finite_automaton
+
+** Example Usage
 #+begin_src python :results output :exports both
 from src.dfa import DeterministicFiniteAutomata
 
